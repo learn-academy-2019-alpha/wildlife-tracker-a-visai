@@ -1,0 +1,12 @@
+<h1>Ranger Page</h1>
+
+<ul>
+  <%if @animal%>
+    <% @animal.each do |animal| %>
+      <li><%=link_to animal.common_name, animal_path(animal)%> <%= link_to 'Edit', edit_animal_path(animal) %> <%= link_to "Delete", animal_path(animal), :method => :delete %> </li>
+    <%end%>
+  <%end%>
+</ul>
+
+
+<%= link_to 'Submit New Animal', new_animal_path %>

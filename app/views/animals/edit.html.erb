@@ -1,0 +1,17 @@
+<h1>EDIT PAGE</h1>
+
+<body>
+  <%= form_for @animal do |f| %>
+     <%= f.label "Animal's common name" %>
+     <%= f.text_field :common_name %></br>
+
+     <%= f.label "Animal's latin name" %>
+     <%= f.text_field :latin_name %></br>
+
+     <%= f.label "Animal's Kingdom" %>
+     <%= f.text_field :kingdom %></br>
+
+     <%= f.submit %>
+
+  <%end%>
+</body>

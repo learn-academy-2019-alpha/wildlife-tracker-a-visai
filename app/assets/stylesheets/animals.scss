@@ -1,0 +1,25 @@
+// Place all the styles related to the Animals controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+p {
+  text-align: center;
+}
+
+ul {
+  display:table;
+  margin:0 auto;
+}
+
+body {
+    text-align: center;
+    font-size: 25px;
+}
+
+form {
+    display: inline-block;
+}
